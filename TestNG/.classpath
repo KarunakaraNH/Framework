@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="C:/Users/karunh/Downloads/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/karunh/Downloads/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/karunh/Downloads/selenium-java-3.141.59.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karunh/Downloads/extentreports-java-3.1.5.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

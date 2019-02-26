@@ -1,75 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="2" total="11" passed="7">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="165" started-at="2019-02-06T03:22:12Z" finished-at="2019-02-06T03:22:13Z">
+  <suite name="Default suite" duration-ms="5052" started-at="2019-02-13T03:20:10Z" finished-at="2019-02-13T03:20:15Z">
     <groups>
-      <group name="smoke">
-        <method signature="day1.demo2()[pri:0, instance:test.day1@2a2d45ba]" name="demo2" class="test.day1"/>
-        <method signature="day2.demo4()[pri:0, instance:test.day2@20e2cbe0]" name="demo4" class="test.day2"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="65" started-at="2019-02-06T03:22:12Z" finished-at="2019-02-06T03:22:13Z">
-      <class name="test.day4">
-        <test-method status="FAIL" signature="Webcar(java.lang.String)[pri:0, instance:test.day4@2a5ca609]" name="Webcar" duration-ms="0" started-at="2019-02-06T03:22:13Z" finished-at="2019-02-06T03:22:13Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'URL' is required by @Test on method Webcar but has not been marked @Optional or defined
-in C:\Users\karunh\SeleniumTutorial\SeleniumTutorial\TestNG\testng.xml]]>
-            </message>
+    <test name="Default test" duration-ms="5052" started-at="2019-02-13T03:20:10Z" finished-at="2019-02-13T03:20:15Z">
+      <class name="test.Propertyclass">
+        <test-method status="FAIL" signature="prop1()[pri:0, instance:test.Propertyclass@6d00a15d]" name="prop1" duration-ms="5017" started-at="2019-02-13T03:20:10Z" finished-at="2019-02-13T03:20:15Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'URL' is required by @Test on method Webcar but has not been marked @Optional or defined
-in C:\Users\karunh\SeleniumTutorial\SeleniumTutorial\TestNG\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Webcar -->
-        <test-method status="PASS" signature="webAPI()[pri:0, instance:test.day4@2a5ca609]" name="webAPI" duration-ms="1" started-at="2019-02-06T03:22:13Z" finished-at="2019-02-06T03:22:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webAPI -->
-      </class> <!-- test.day4 -->
-      <class name="test.day2">
-        <test-method status="FAIL" signature="demo3()[pri:0, instance:test.day2@20e2cbe0]" name="demo3" duration-ms="3" started-at="2019-02-06T03:22:13Z" finished-at="2019-02-06T03:22:13Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at test.day2.demo3(day2.java:12)
+              <![CDATA[java.lang.NullPointerException
+at test.Propertyclass.prop1(Propertyclass.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -97,81 +39,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo3 -->
-        <test-method status="PASS" signature="demo4()[pri:0, instance:test.day2@20e2cbe0]" name="demo4" duration-ms="1" started-at="2019-02-06T03:22:13Z" finished-at="2019-02-06T03:22:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo4 -->
-      </class> <!-- test.day2 -->
-      <class name="test.day1">
-        <test-method status="PASS" signature="demo1()[pri:0, instance:test.day1@2a2d45ba]" name="demo1" is-config="true" duration-ms="12" started-at="2019-02-06T03:22:12Z" finished-at="2019-02-06T03:22:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="demo2()[pri:0, instance:test.day1@2a2d45ba]" name="demo2" duration-ms="9" started-at="2019-02-06T03:22:13Z" finished-at="2019-02-06T03:22:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo2 -->
-      </class> <!-- test.day1 -->
-    </test> <!-- Test -->
-    <test name="Car loan" duration-ms="31" started-at="2019-02-06T03:22:13Z" finished-at="2019-02-06T03:22:13Z">
-      <class name="test.day3">
-        <test-method status="PASS" signature="weblogin(java.lang.String, java.lang.String)[pri:0, instance:test.day3@59f99ea]" name="weblogin" duration-ms="1" started-at="2019-02-06T03:22:13Z" data-provider="getdata" finished-at="2019-02-06T03:22:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- weblogin -->
-        <test-method status="PASS" signature="weblogin(java.lang.String, java.lang.String)[pri:0, instance:test.day3@59f99ea]" name="weblogin" duration-ms="4" started-at="2019-02-06T03:22:13Z" data-provider="getdata" finished-at="2019-02-06T03:22:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- weblogin -->
-        <test-method status="PASS" signature="weblogin(java.lang.String, java.lang.String)[pri:0, instance:test.day3@59f99ea]" name="weblogin" duration-ms="5" started-at="2019-02-06T03:22:13Z" data-provider="getdata" finished-at="2019-02-06T03:22:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pwd3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- weblogin -->
-        <test-method status="PASS" signature="APIlogin()[pri:0, instance:test.day3@59f99ea]" name="APIlogin" duration-ms="2" started-at="2019-02-06T03:22:13Z" depends-on-methods="test.day3.weblogin" finished-at="2019-02-06T03:22:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APIlogin -->
-      </class> <!-- test.day3 -->
-    </test> <!-- Car loan -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- prop1 -->
+      </class> <!-- test.Propertyclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
