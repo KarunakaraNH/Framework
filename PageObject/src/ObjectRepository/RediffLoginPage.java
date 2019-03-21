@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 public class RediffLoginPage {
 
 		WebDriver driver;
+		//below is constructor with argument
 		public RediffLoginPage(WebDriver driver)
 		{
 			this.driver=driver;

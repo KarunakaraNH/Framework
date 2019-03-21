@@ -16,4 +16,9 @@ public class day2 {
 	public void demo4(){
 		System.out.println("this is demo4");
 	}
+@Test(groups={"Regression"})
+
+public void demo77(){
+	System.out.println("this is 77 demo");
+}
 }

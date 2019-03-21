@@ -12,6 +12,7 @@ public class Login2 {
     	System.setProperty("webdriver.chrome.driver", "C:\\Users\\karunh\\chromedriver.exe");
     	WebDriver driver=new ChromeDriver();
     	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+    	//creating object of java object class by passing driver argument
     	RediffLoginPage l=new RediffLoginPage(driver);
     	l.Emailid().sendKeys("email.com");
     	l.Password().sendKeys("27");
