@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample]">
+  <test thread-count="5" name="integrTest(failed)">
+    <classes>
+      <class name="testng.Day2autosuggestion">
+        <methods>
+          <include name="autosuggestion"/>
+        </methods>
+      </class> <!-- testng.Day2autosuggestion -->
+    </classes>
+  </test> <!-- integrTest(failed) -->
+</suite> <!-- Failed suite [Sample] -->

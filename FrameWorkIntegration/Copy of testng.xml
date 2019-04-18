@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample">
+<parameter name="URL" value="www.ikea.com"
+  <test thread-count="5" name="integrTest">
+    <packages>
+    <package name="testng">
+    </package>
+    </packages>
+  </test> 
+</suite> 
